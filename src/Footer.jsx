@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import Logo from './Assets/logo.png';
+import Logo from './Assets/qalogo.png';
 
 
 class Footer extends Component {
@@ -16,7 +16,7 @@ class Footer extends Component {
                 <a className="inline-block mb-6 text-gray-900 text-lg font-semibold" href="/" data-config-id="brand">
                   <img className="h-7" src={Logo} alt="" width="auto" />
                 </a>
-                <p className="hidden lg:block text-sm text-gray-500" data-config-id="copy">All rights reserved © USA Trucking Quotes 2021</p>
+                <p className="hidden lg:block text-sm text-gray-500" data-config-id="copy">All rights reserved © Quantum Assurance 2021</p>
               </div>
 
             
@@ -30,13 +30,11 @@ class Footer extends Component {
           </ul>
                   <a className="inline-block mr-auto lg:mr-0 py-4 px-8 text-sm text-white font-medium leafing-normal bg-blue-500 hover:bg-blue-300 hover:shadow-lg rounded"  href="tel:8882922361" data-config-id="primary-action">Get Your Free Quote</a>
                 </div>
-                <p className="mt-6 lg:hidden text-sm text-gray-500" data-config-id="copy">All rights reserved © Quotehound 2021</p>
+                <p className="mt-6 lg:hidden text-sm text-gray-500" data-config-id="copy">All rights reserved © Quantum Assurance 2021</p>
               </div>
             </div>
           </div>
-          <div className="container mx-auto px-4 lg:w-1/2 md:w-full text-center">
-          <p className="text-sm text-center text-gray-500"> This is a commercial site designed for the solicitation of insurance from selected Commercial insurance carriers. It is not an insurer, an insurance agency, or a medical provider. Insurance agency services may be provided by a partner licensed agency. This site is not maintained by or affiliated with the federal government’s Health Insurance Marketplace website or any state government health insurance marketplace</p>
-          </div>
+
         </section>
     
         )
