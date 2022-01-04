@@ -45,7 +45,7 @@ class App extends Component {
       TCPA_Language: 'By hitting Next below, I provide my express written consent to the following. Telemarketing calls, text messages, emails, and postal mail from this Web site, our marketing and re-marketing network, and up to eight insurance companies or their affiliates or representatives at the phone number (including wireless number), email address, and postal address provided by me. Telemarketing calls, text messages, emails, and postal mail (including wireless number), email address, and postal address provided by me. Calls and text messages transmitting insurance quotes, or seeking related additional information from me, using an Automated Telephone Dialing System or prerecorded or artificial voices. Electronic video monitoring and recordation of my activities on this Site. I also understand that my agreement to be contacted is not a condition of purchasing any property, goods, or services and that I may call 1-888-567-1448 to speak with someone about obtaining an insurance quote. I acknowledge that I may revoke my consent by emailing “STOP” to optout@quotehound.com. I affirm that I have read and agree to this websites Privacy Policy and Terms of Use',
       trusted_form_cert_id: '',
       jornaya_lead_id: '',
-      Landing_Page: 'commerical.quantumassurance.com',
+      landing_Page: 'commerical.quantumassurance.com',
       first_name: '',
       last_name: '',
       phone_home: '',
