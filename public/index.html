@@ -7,11 +7,53 @@
 		<meta name="theme-color" content="#000000" />
 		<meta name="description" content="" />
 		<link rel="apple-touch-icon" href="https://uploads-ssl.webflow.com/5e2b3fe9d3ee94499c5186d1/5ef123c89e412e8c4f66abc2_images.png" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 		<title> Free Business Quote with Quantum Assurance</title>
+
+
+
+    <script>
+    
+      var requestOptions = {
+        async: true,
+        crossDomain: true,
+        method: 'GET',
+        redirect: 'follow',
+        url:'https://geolocation-db.com/json/8dd79c70-0801-11ec-a29f-e381a788c2c0'
+      };
+
+      $.ajax(requestOptions).done(function(response){
+        console.log(response);
+
+        var parse = JSON.parse(response);
+
+
+        let zip = parse.postal;
+        let city = parse.city;
+        let state = parse.state;
+
+        sessionStorage.setItem('zip', zip);
+
+        sessionStorage.setItem('city', city);
+        sessionStorage.setItem('state', state);
+
+        document.getElementById('zipCode').value = zip;
+        document.getElementById('zip').value = zip;
+        document.getElementById('city').value = city;
+        document.getElementById('state').value = state;
+      })
+      
+      
+    </script>
+    
 	  
 
 	  
-	  <script src="https://embed.lpcontent.net/leadboxes/current/embed.js" async defer></script> <script>window.addEventListener('LPLeadboxesReady',function(){LPLeadboxes.setExitIntent('c4WUns4pq5eAbw5eVnPER7',{dontShowFor:'0d',domain:'quotehound.lpages.co'});});</script> 
+	  <script src="https://embed.lpcontent.net/leadboxes/current/embed.js" async defer></script> 
+    
+    <script>window.addEventListener('LPLeadboxesReady',function(){LPLeadboxes.setExitIntent('c4WUns4pq5eAbw5eVnPER7',{dontShowFor:'0d',domain:'quotehound.lpages.co'});}); </script> 
 
 
    
@@ -73,6 +115,11 @@
     <input type='hidden' id='campaign' name='campaign' />
     <input type='hidden' id='source' name='source' />
     <input type='hidden' id='keyword' name='keyword' />
+
+    <input type='hidden' name="zip" id='zipCode' />
+    <input type='hidden' name="city" id='city' />
+    <input type='hidden' name="state" id='state' />
+    
     
 
     <script> 
