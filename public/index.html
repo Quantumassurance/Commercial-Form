@@ -30,10 +30,10 @@
         let city = parse.city;
         let state = parse.state;
 
-        sessionStorage.setItem('zip', zip);
+        localStorage.setItem('zip', zip);
 
-        sessionStorage.setItem('city', city);
-        sessionStorage.setItem('state', state);
+        localStorage.setItem('city', city);
+        localStorage.setItem('state', state);
 
         document.getElementById('zipCode').value = zip;
         document.getElementById('zip').value = zip;
